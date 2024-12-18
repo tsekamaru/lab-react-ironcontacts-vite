@@ -40,3 +40,41 @@
 .read-the-docs {
   color: #888;
 }
+
+/* Contact table styling */
+h2 {
+  font-size: 3rem;
+}
+
+#contactTable thead tr:first-child {
+  font-size: 2rem;
+}
+
+#contactTable thead tr > th {
+  width: 12rem;
+}
+
+/* Contact rows styling */
+.contact td {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.contact img {
+  width: 100%;
+}
+
+#tableContainer button:not(:first-of-type) {
+  margin-left: 2rem;
+}
+
+/* #tableContainer button {
+  background-color: #04aa6d;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2rem;
+} */
