@@ -1,4 +1,4 @@
-function Contact({ pictureURL, name, popularity, oscar, emmy }) {
+function Contact({ pictureURL, name, popularity, oscar, emmy, deleteContact }) {
   return (
     <tr className="contact">
       <td>
@@ -8,6 +8,11 @@ function Contact({ pictureURL, name, popularity, oscar, emmy }) {
       <td>{popularity}</td>
       <td>{oscar}</td>
       <td>{emmy}</td>
+      <td>
+        <button className="btn btn-delete" onClick={deleteContact}>
+          Delete
+        </button>
+      </td>
     </tr>
   );
 }
